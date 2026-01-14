@@ -140,13 +140,13 @@ ros2 run com_bridge mission
 3. **Terminal 3 - PX4 SITL:**
 ```bash
 cd /home/rohan/px4/PX4-Autopilot
-make px4_sitl_default gazebo-iris
+make px4_sitl_default gz_x500
 ```
 
 4. **Terminal 4 - Gazebo Simulation:**
 ```bash
 cd /home/rohan/px4/PX4-gazebo-models
-python3 simulation-gazebo --world=warehouse
+python3 simulation-gazebo --world=baylands
 ```
 
 5. **Terminal 5 - QGroundControl (GUI):**
