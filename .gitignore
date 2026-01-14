@@ -1,0 +1,36 @@
+# Build and install directories
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ROS/Colcon
+COLCON_IGNORE
+
+# Dependencies
+node_modules/
+.npm/
+
+# Temporary files
+*.tmp
+*.bak
+*.log
