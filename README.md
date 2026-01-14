@@ -59,8 +59,8 @@ make px4_sitl_default gazebo-iris
 ```bash
 cd /home/rohan/px4/PX4-gazebo-models
 
-# Run simulation with warehouse world
-python3 simulation-gazebo --world=warehouse
+# Run simulation with baylands world
+python3 simulation-gazebo --world=baylands
 ```
 
 ## Running the System
@@ -88,7 +88,7 @@ make px4_sitl_default gazebo-iris
 ### Terminal 4: Gazebo Simulation
 ```bash
 cd /home/rohan/px4/PX4-gazebo-models
-python3 simulation-gazebo --world=warehouse
+python3 simulation-gazebo --world=baylands
 ```
 
 ### Terminal 5: QGroundControl
