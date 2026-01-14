@@ -52,7 +52,7 @@ colcon build
 cd /home/rohan/px4/PX4-Autopilot
 
 # Build PX4 SITL (Software In The Loop)
-make px4_sitl_default gazebo-iris
+make px4_sitl_default gz_x500
 ```
 
 ### 4. Gazebo Models Setup
@@ -82,7 +82,7 @@ ros2 run com_bridge mission
 ### Terminal 3: PX4 Simulation
 ```bash
 cd /home/rohan/px4/PX4-Autopilot
-make px4_sitl_default gazebo-iris
+make px4_sitl_default gz_x500
 ```
 
 ### Terminal 4: Gazebo Simulation
